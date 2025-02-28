@@ -1,0 +1,27 @@
+Security & Basics:
+- IAM: Controls who can do what in your AWS environment. It’s your first stop for setting up users, roles, and permissions.
+- CloudTrail: Keeps track of every action taken in your AWS account. Essential for auditing and troubleshooting.
+Networking & Routing:
+- VPC: Your own private section of AWS’s network where your resources run securely.
+- Route53: DNS service that helps direct users to your app, whether it’s in AWS or somewhere else.
+Compute & Databases:
+- EC2: Lets you configure and run virtual machines in the cloud.
+- ECR (Elastic Container Registry) & ECS (Elastic Container Service): Store and run containerized applications at scale without manually managing servers.
+- RDS: Manages common databases (MySQL, PostgreSQL) so you don’t have to worry about setup, updates, or backups.
+Storage & Data:
+- S3: Reliable storage for files, backups, logs, and more. It’s cheap, secure, and integrates with almost everything on AWS.
+- DynamoDB: A NoSQL database that’s fully managed and can handle a huge amount of traffic, perfect for serverless applications.
+Serverless & Event-Driven:
+- Lambda: Run code only when needed, without managing servers. Great for event-driven apps or data processing tasks.
+- SQS / SNS / EventBridge: Handle messages and events between services, keeping parts of your application loosely connected.
+- Step Functions: Orchestrate multi-step tasks (like a checkout process) across different AWS services in a clear, visual workflow.
+APIs & User Management:
+- API Gateway: Easily create and manage APIs for your services.
+- Cognito: Handles user sign-up, sign-in, and security tokens to avoid coding your own authentication system.
+Infrastructure & Observability:
+- CloudFormation: Define your entire AWS setup using code, so you can easily recreate or modify environments in a controlled manner.
+- AWS Code Services (CodeBuild, CodePipeline, CodeDeploy) for CI/CD: Automate building, testing, and deploying your applications to deliver updates faster.
+- CloudWatch: Get metrics, logs, and dashboards to monitor how your application is performing, and set alarms if something goes wrong.
+Edge & Security:
+- CloudFront: A global content delivery network that speeds up how quickly users can access your static or dynamic content.
+- ELB (Elastic Load Balancing): Distributes traffic to multiple servers or containers, making your application more resilient.
